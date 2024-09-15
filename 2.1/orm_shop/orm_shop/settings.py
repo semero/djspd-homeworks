@@ -75,21 +75,13 @@ WSGI_APPLICATION = 'orm_shop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dj_orm',
-#         'USER': 'adilet',
-#         'PASSWORD': '1',
-#         'HOST': 'localhost',
-#         'PORT': 5432
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dj_orm',
+#       'USER': 'adilet',
         'USER': 'postgres',
+#       'PASSWORD': '1',
         'PASSWORD': 'psql',
         'HOST': 'localhost',
         'PORT': 5432
